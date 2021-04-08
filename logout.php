@@ -1,0 +1,9 @@
+<?php
+session_start();
+$_SESSION["id"]="";
+unset($_SESSION["id"]);
+session_destroy();
+?>
+<script>
+    location.href="index.php";
+</script>
